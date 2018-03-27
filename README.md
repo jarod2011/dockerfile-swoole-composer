@@ -16,11 +16,11 @@ All image is only `73.5MB`
 ---
 
 此镜像是基于 php:cli-alpine 构建，其镜像内包含如下：
-
-1. 常用的php扩展，比如`mysqli` `pdo_mysql` `mbstring` `openssl`等
+
+1. 常用的php扩展，比如`mysqli` `pdo_mysql` `mbstring` `openssl`等
 2. 最新版本的phpredis扩展
 3. 最新版本的swoole扩展，并且开启了`协程` `异步Redis支持` `mysqlnd支持`
 4. 最新的composer，可以快速构建项目
 
 ## 此镜像仅为运行环境
-此镜像最终缩减到仅为`73.5MB`
+此镜像最终缩减到仅为`73.5MB`
